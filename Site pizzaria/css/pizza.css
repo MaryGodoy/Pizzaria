@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+#menu-desktop {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#menu-desktop li {
+    list-style-type: none;
+    display: inline;
+}
+
+#menu-desktop li a {
+    padding: 30px 40px;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: -3px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 80%;
+    letter-spacing: 0.60;
+}
+
+#menu-desktop li a:hover {
+    background-color: rgb(156, 105, 43);
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(../img/foto-capa-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: Merriweather, sans-serif;
+    font-size: 600%;
+    color: black;
+    text-align: center;
+    padding: 35%;
+
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+    ;
+}
+
+.apresentacao {
+    width: 90%;
+    display: block;
+    max-width: 150px;
+    min-width: 320px;
+    margin: 100px auto;
+
+}
+
+.pizza {
+    font-family: Merriweather, sans-serif;
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0, 75);
+    border-radius: 5px;
+}
+
+.pizza img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.pizza h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pizza p {
+    text-align: center;
+    padding: 5%;
+    margin-top: 1%;
+    color: rgb(51, 44, 36);
+    font-size: 90%;
+}
+
+.pizza a {
+    display: block;
+    text-align: center;
+    background-color: rgb(20, 133, 95);
+    color: aliceblue;
+    padding: 3%;
+    text-decoration: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.direita {
+    float: right
+}
+
+.centro {
+    margin-left: 5%;
+
+}
+
+footer {
+    margin-top: 50px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(196, 141, 70);
+}
+
+footer p {
+    font-family: cursive;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
